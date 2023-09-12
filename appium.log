@@ -1,48 +1,50 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 53320
+[35m[Appium][39m   port: 63867
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: /var/folders/1x/wj5dqxzs75z_yv5464ygh9rh0000gn/T//Katalon/Appium/Temp1694331593182
-[35m[Appium][39m   chromedriverPort: 53326
+[35m[Appium][39m   tmpDir: /var/folders/1x/wj5dqxzs75z_yv5464ygh9rh0000gn/T//Katalon/Appium/Temp1694493094994
+[35m[Appium][39m   chromedriverPort: 63870
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 53326
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53320
+[35m[Appium][39m   chromedriverPort: 63870
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:63867
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m65 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/agfinaaliarahma/Documents/Girls In Tech 🫶🏻/GIT ASSIGNMENT/Final Project/Katalon-Mobile-Final-Project/APK/app-debug.apk","noReset":true,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":53352},"capabilities":{"firstMatch":[{"appium:app":"/Users/agfinaaliarahma/Documents/Girls In Tech 🫶🏻/GIT ASSIGNMENT/Final Project/Katalon-Mobile-Final-Project/APK/app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":53352,"appium:udid":"emulator-5554"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","platform":"ANDROID","systemPort":8233},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":8233,"appium:udid":"emulator-5554"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 42ede537-5d42-41d0-a09a-4975bc85ced1
-[35m[BaseDriver][39m Using local app '/Users/agfinaaliarahma/Documents/Girls In Tech 🫶🏻/GIT ASSIGNMENT/Final Project/Katalon-Mobile-Final-Project/APK/app-debug.apk'
+[35m[BaseDriver][39m Session created with session id: 1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under '/Users/agfinaaliarahma/.katalon/tools/android_sdk' (newest first):
 [35m[ADB][39m     /Users/agfinaaliarahma/.katalon/tools/android_sdk/build-tools/29.0.3
 [35m[ADB][39m Using 'adb' from '/Users/agfinaaliarahma/.katalon/tools/android_sdk/platform-tools/adb'
 [35m[AndroidDriver][39m Retrieving device list
 [35m[AndroidDriver][39m Using device: emulator-5554
 [35m[ADB][39m Using 'adb' from '/Users/agfinaaliarahma/.katalon/tools/android_sdk/platform-tools/adb'
-[35m[ADB][39m Package name: 'com.example.mikebanks.bankscorpfinancial'
-[35m[ADB][39m Main activity name: 'com.example.mikebanks.bankscorpfinancial.LaunchActivity'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m The application at '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 3251ms
 [35m[ADB][39m Using 'apksigner.jar' from '/Users/agfinaaliarahma/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
 [35m[ADB][39m '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
 [35m[ADB][39m '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
-[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Server packages are going to be (re)installed
+[35m[ADB][39m The application at '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-v4.27.0.apk' took 7850ms
+[35m[ADB][39m The application at '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 1807ms
 [35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[35m[ADB][39m '/Users/agfinaaliarahma/Documents/Girls In Tech 🫶🏻/GIT ASSIGNMENT/Final Project/Katalon-Mobile-Final-Project/APK/app-debug.apk' is signed with a non-default certificate
-[35m[ADB][39m The application at '/Users/agfinaaliarahma/Documents/Girls In Tech 🫶🏻/GIT ASSIGNMENT/Final Project/Katalon-Mobile-Final-Project/APK/app-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[35m[ADB][39m The installation of 'app-debug.apk' took 3906ms
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
 [35m[UiAutomator2][39m Using UIAutomator2 server from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
@@ -51,122 +53,87 @@
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
-[35m[UiAutomator2][39m Starting 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity and waiting for 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 42ede537-5d42-41d0-a09a-4975bc85ced1 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16452 ms - 1489[39m
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m31771 ms - 1209[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1 [39m[32m200[39m [90m26 ms - 1443[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a [39m[32m200[39m [90m42 ms - 1163[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1 [39m[32m200[39m [90m22 ms - 1443[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a [39m[32m200[39m [90m39 ms - 1163[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/timeouts [39m[32m200[39m [90m6 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (42ede537)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 27a270d9-7c40-4a13-9e6d-ad4755d38569 with 42ede537-5d42-41d0-a09a-4975bc85ced1
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/source [39m[32m200[39m [90m703 ms - 10623[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot [39m[32m200[39m [90m770 ms - 189536[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/screenshot [39m[32m200[39m [90m555 ms - 100522[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/window/rect [39m[32m200[39m [90m32 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Username' or . = 'Username') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_username']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m666 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_password']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m116 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckBox' and (@text = 'Remember Credentials' or . = 'Remember Credentials') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/chk_remember']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m137 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'LOGIN' or . = 'LOGIN') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_login']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m153 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = concat(\"Don\" , \"'\" , \"t have a profile?\") or . = concat(\"Don\" , \"'\" , \"t have a profile?\")) and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m72 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CREATE A PROFILE' or . = 'CREATE A PROFILE') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_create_account']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m120 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Bank App Demo' or . = 'Bank App Demo')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m99 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/action_about' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m100 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m217 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (42ede537)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 27a270d9-7c40-4a13-9e6d-ad4755d38569 with 42ede537-5d42-41d0-a09a-4975bc85ced1
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/source [39m[32m200[39m [90m127 ms - 11541[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/appium/device/system_bars [39m[32m200[39m [90m89 ms - 151[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.example.mikebanks.bankscorpfinancial"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/appium/device/activate_app [39m[32m200[39m [90m1089 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/screenshot [39m[32m200[39m [90m572 ms - 145150[39m
+[35m[W3C (1ffa10f6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a066a9b6-9017-4e9b-94fe-8061095d3453 with 1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source [39m[32m200[39m [90m887 ms - 10623[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'First Name' or . = 'First Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_first_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m83 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot [39m[32m200[39m [90m562 ms - 100822[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Last Name' or . = 'Last Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_last_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m94 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (1ffa10f6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a066a9b6-9017-4e9b-94fe-8061095d3453 with 1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source [39m[32m200[39m [90m131 ms - 4989[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Country' or . = 'Country') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_country']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m117 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot [39m[32m200[39m [90m467 ms - 185042[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Username' or . = 'Username') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_username']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m56 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Close app' or . = 'Close app') and @resource-id = 'android:id/aerr_close']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/elements [39m[32m200[39m [90m357 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_password']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m105 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (1ffa10f6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m socket hang up
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source [39m[31m500[39m [90m230 ms - 789[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Confirm Password' or . = 'Confirm Password') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_password_confirm']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m94 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot [39m[32m200[39m [90m789 ms - 322378[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Create Profile' or . = 'Create Profile') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_create_account']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m83 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (1ffa10f6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a066a9b6-9017-4e9b-94fe-8061095d3453 with 1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/source [39m[32m200[39m [90m48 ms - 4993[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Create Profile' or . = 'Create Profile')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/42ede537-5d42-41d0-a09a-4975bc85ced1/elements [39m[32m200[39m [90m85 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/screenshot [39m[32m200[39m [90m516 ms - 322128[39m
 [35m[HTTP][39m [90m[39m
-[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
-[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session '42ede537-5d42-41d0-a09a-4975bc85ced1' from our master session list
-[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
-[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command '/Users/agfinaaliarahma/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.example.mikebanks.bankscorpfinancial' exited with code 1'; Command output: * daemon not running; starting now at tcp:5037
-[35m[UiAutomator2][39m * daemon started successfully
-[35m[UiAutomator2][39m error: device offline
-[35m[UiAutomator2][39m 
-[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/agfinaaliarahma/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:53352' exited with code 1'; Command output: adb: error: listener 'tcp:53352' not found
-[35m[UiAutomator2][39m 
-[35m[Appium][39m Received SIGTERM - shutting down
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Open app again' or . = 'Open app again') and @resource-id = 'android:id/aerr_restart']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1ffa10f6-66cd-4c4e-92d7-ae2dbb2c305a/elements [39m[32m200[39m [90m250 ms - 139[39m
+[35m[HTTP][39m [90m[39m
