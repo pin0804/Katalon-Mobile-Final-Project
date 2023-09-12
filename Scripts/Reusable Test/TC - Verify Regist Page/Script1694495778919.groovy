@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Login Page/txt - Bank App Demo'), 0)
@@ -36,4 +37,5 @@ Mobile.verifyElementVisible(findTestObject('Login Page/btn - LOGIN'), 0)
 Mobile.verifyElementVisible(findTestObject('Login Page/txt - Dont have a profile'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login Page/btn - CREATE A PROFILE'), 0)
+
 
