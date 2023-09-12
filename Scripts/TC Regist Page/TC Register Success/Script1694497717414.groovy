@@ -40,13 +40,13 @@ Mobile.setText(findTestObject('Register Page/inpt- Confirm Password'), GlobalVar
 if ((((!(firstname.isEmpty()) && !(lastname.isEmpty())) && !(country.isEmpty())) && !(GlobalVariable.username.isEmpty())) && 
 !(GlobalVariable.password.isEmpty())) {
     // All inputs are filled, so click the "Create Profile" button
-    println('All inputs are filled.') // Some inputs are not filled, perform appropriate action here
-    // You can add other actions as needed, e.g., displaying an error message
+    println('All inputs are filled.' // Some inputs are not filled, perform appropriate action here
+        ) // You can add other actions as needed, e.g., displaying an error message
 } else {
     println('Some inputs are not filled. Cannot create a profile.')
 }
 
 Mobile.tap(findTestObject('Register Page/btn - Create Profile'), 0, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.waitForElementPresent(findTestObject('Pop Up/btn - Open app again'), 0, FailureHandling.STOP_ON_FAILURE)
-println('Created Profile successfully ')
+Mobile.closeApplication()
+
