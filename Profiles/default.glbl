@@ -29,4 +29,14 @@
       <initValue>'P4ssword'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'myAccount'</initValue>
+      <name>account</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1000000</initValue>
+      <name>initBalance</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
