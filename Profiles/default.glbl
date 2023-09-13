@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usrtest5'</initValue>
+      <initValue>'usrtest9'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -38,10 +38,5 @@
       <description></description>
       <initValue>''</initValue>
       <name>initBalance</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'myAccount2'</initValue>
-      <name>account2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

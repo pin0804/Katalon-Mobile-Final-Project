@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>419047e9-066f-4b4a-972d-833073ead80b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC Regist Page/TC Register Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -45,7 +45,7 @@
    <testCaseLink>
       <guid>317d3315-b0b1-457c-965d-eb3f68dde596</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC Login Page/TC - New Login Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -61,11 +61,36 @@
          <value></value>
          <variableId>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77b36dcf-c2de-4490-9d26-975b72c4c165</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc8c392e-b231-43f9-9c6a-1daae5e1b647</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC Dashboard/TC - Dashboard verify account</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>796d0373-9b82-4556-bade-783b06900501</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdefe8bb-7f13-4383-82a3-db58c560497e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>954e2aef-1a5f-40b6-b78d-52851e0a7472</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC Dashboard/TC - Dashboard add account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -74,12 +99,30 @@
          <value></value>
          <variableId>9d90c2bc-2256-4911-a729-7ea2d3d70ad9</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ff7db7a-9f46-4c61-82d0-70e29d4767c9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>85e585b4-2d92-4a92-bbce-5693573865c2</guid>
+      <guid>e2f0e580-d576-422b-aaec-a792a1ca8931</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC Dashboard/TC - Add Deposit Successfull</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC Dashboard/TC - Dashboard verify account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>796d0373-9b82-4556-bade-783b06900501</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdefe8bb-7f13-4383-82a3-db58c560497e</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

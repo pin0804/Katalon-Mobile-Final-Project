@@ -17,25 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/txt - Bank App Demo'), 0)
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - help'), 0)
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Re-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - menu kebab'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt - Welcome to the Bank App Demo'), 0)
 
-//Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/inpt - Username'), 0)
-//Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/inpt - Password'), 0)
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/CheckBox - Remember Credentials'), 0)
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - LOGIN'), 0)
+Mobile.tap(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/txt - Dont have a profile'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - CREATE A PROFILE'), 0)
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Menu Burger'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/Login Page/btn - LOGIN'), 0)
+Mobile.tap(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Account Page/txt - Accounts'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Account Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.pressBack()
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.pressBack()
 

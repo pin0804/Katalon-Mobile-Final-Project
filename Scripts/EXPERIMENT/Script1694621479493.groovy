@@ -17,25 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/txt - Bank App Demo'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - help'), 0)
+def randomDefinedNumber = CustomKeywords.'kw.utility.randomNumber.RandomNumberCustom'(6)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - menu kebab'), 0)
-
-//Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/inpt - Username'), 0)
-//Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/inpt - Password'), 0)
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/CheckBox - Remember Credentials'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - LOGIN'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/txt - Dont have a profile'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - CREATE A PROFILE'), 0)
-
-Mobile.tap(findTestObject('Login Page/Login Page/btn - LOGIN'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
-
+println('value random custom defined dari keyword: ' + randomDefinedNumber)
+def username = username + randomDefinedNumber
+println('new username: '+ username)

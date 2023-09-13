@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC - Dashboard add account</name>
+   <name>TC - Dashboard verify acc for new regist</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7d6d7c8d-da0f-4890-a7b9-5029d0309d5a</testCaseGuid>
+   <testCaseGuid>03f25926-923f-4a46-9f2c-a681e0b6d017</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9d90c2bc-2256-4911-a729-7ea2d3d70ad9</variableId>
+      <variableId>9116a73e-581b-4dcb-bc3c-9f33ffb5264b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2ff7db7a-9f46-4c61-82d0-70e29d4767c9</variableId>
+      <variableId>d2115020-89bd-4d96-9dd7-b22b8bc713ca</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.initBalance</defaultValue>
       <description></description>
-      <id>9d90c2bc-2256-4911-a729-7ea2d3d70ad9</id>
+      <id>9116a73e-581b-4dcb-bc3c-9f33ffb5264b</id>
       <masked>false</masked>
       <name>balance</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.account</defaultValue>
       <description></description>
-      <id>2ff7db7a-9f46-4c61-82d0-70e29d4767c9</id>
+      <id>d2115020-89bd-4d96-9dd7-b22b8bc713ca</id>
       <masked>false</masked>
       <name>account</name>
    </variable>

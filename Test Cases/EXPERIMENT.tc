@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EXPERIMENT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3be5b4e8-f08d-42af-b2d9-8b0a8ca361ad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbe27512-b752-4a5f-af38-449689e637d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'usr'</defaultValue>
+      <description></description>
+      <id>bbe27512-b752-4a5f-af38-449689e637d1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

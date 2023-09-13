@@ -11,11 +11,24 @@
       <value></value>
       <variableId>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77b36dcf-c2de-4490-9d26-975b72c4c165</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.initBalance</defaultValue>
       <description></description>
       <id>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</id>
       <masked>false</masked>
       <name>balance</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.account</defaultValue>
+      <description></description>
+      <id>77b36dcf-c2de-4490-9d26-975b72c4c165</id>
+      <masked>false</masked>
+      <name>account</name>
    </variable>
 </TestCaseEntity>
