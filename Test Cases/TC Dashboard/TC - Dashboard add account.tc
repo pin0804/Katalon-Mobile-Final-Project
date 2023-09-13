@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Dashboard add account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d6d7c8d-da0f-4890-a7b9-5029d0309d5a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d90c2bc-2256-4911-a729-7ea2d3d70ad9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.initBalance</defaultValue>
+      <description></description>
+      <id>9d90c2bc-2256-4911-a729-7ea2d3d70ad9</id>
+      <masked>false</masked>
+      <name>balance</name>
+   </variable>
+</TestCaseEntity>
