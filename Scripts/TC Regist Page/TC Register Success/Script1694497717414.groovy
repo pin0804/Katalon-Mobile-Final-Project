@@ -48,5 +48,13 @@ if ((((!(firstname.isEmpty()) && !(lastname.isEmpty())) && !(country.isEmpty()))
 
 Mobile.tap(findTestObject('Register Page/btn - Create Profile'), 0, FailureHandling.STOP_ON_FAILURE)
 
+if (Mobile.verifyElementPresent(findTestObject('Pop Up/btn - Open app again'), 0, FailureHandling.OPTIONAL)) {
+    // Jika elemen ada, maka tap elemen
+    Mobile.tap(findTestObject('Pop Up/btn - Open app again'), 0, FailureHandling.STOP_ON_FAILURE)
+} else {
+    // Jika elemen tidak ada, lakukan tindakan lain sesuai kebutuhan
+    println("Element 'Pop Up/btn - Open app again' is not visible.")
+}
+
 Mobile.closeApplication()
 
