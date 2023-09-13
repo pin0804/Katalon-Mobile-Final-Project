@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usr123'</initValue>
+      <initValue>'usrtest'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>1000000</initValue>
+      <initValue>''</initValue>
       <name>initBalance</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b953479a-0f32-44b0-91ba-9c6d9dd9a1d0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.initBalance</defaultValue>
+      <description></description>
+      <id>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</id>
+      <masked>false</masked>
+      <name>balance</name>
+   </variable>
 </TestCaseEntity>

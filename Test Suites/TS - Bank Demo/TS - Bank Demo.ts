@@ -55,5 +55,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC Dashboard/TC - Dashboard add acc for new acc</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -33,17 +33,11 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify element add an accoun
 
 Mobile.setText(findTestObject('Login Page/Add an Account/inpt - Account Name'), GlobalVariable.account, 0)
 
-Mobile.setText(findTestObject('Login Page/Add an Account/inpt - Initial Balance (Optional)'), GlobalVariable.initBalance, 
-    0)
+Mobile.setText(findTestObject('Login Page/Add an Account/inpt - Initial Balance (Optional)'), balance, 0)
 
 Mobile.tap(findTestObject('Login Page/Add an Account/btn - ADD'), 0)
 
-if (Mobile.verifyElementPresent(findTestObject('Pop Up/btn - Open app again'), 0, FailureHandling.OPTIONAL)) {
-    // Jika elemen ada, maka tap elemen
-    Mobile.tap(findTestObject('Pop Up/btn - Open app again'), 0, FailureHandling.STOP_ON_FAILURE) // Jika elemen tidak ada, lakukan tindakan lain sesuai kebutuhan
-} else {
-    println('Element \'Pop Up/btn - Open app again\' is not visible.')
-}
+Mobile.pressBack()
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), [:], FailureHandling.STOP_ON_FAILURE)
 
