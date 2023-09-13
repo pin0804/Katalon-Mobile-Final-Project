@@ -61,3 +61,7 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Menu Burger'), [:], F
 
 Mobile.tap(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Login Page/Account Page/txt - Accounts'), 0)
+
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Account Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
