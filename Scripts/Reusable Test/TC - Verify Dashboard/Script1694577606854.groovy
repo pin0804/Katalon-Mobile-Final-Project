@@ -21,9 +21,9 @@ Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/txt
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/btn - menu burger'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/btn - help'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - help'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/btn - menu kebab'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - menu kebab'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/img - logo'), 0)
 

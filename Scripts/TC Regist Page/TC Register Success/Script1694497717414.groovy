@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Launch App'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/btn - CREATE A PROFILE'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Login Page/Login Page/btn - CREATE A PROFILE'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Register Page/txt - Create Profile'), 0, FailureHandling.STOP_ON_FAILURE)
 

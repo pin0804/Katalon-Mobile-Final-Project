@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Launch App'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Login Page/inpt - Username'), GlobalVariable.username, 0)
+Mobile.setText(findTestObject('Login Page/Login Page/inpt - Username'), GlobalVariable.username, 0)
 
-Mobile.setText(findTestObject('Login Page/inpt - Password'), GlobalVariable.password, 0)
+Mobile.setText(findTestObject('Login Page/Login Page/inpt - Password'), GlobalVariable.password, 0)
 
 boolean isChecked = false
 
@@ -30,9 +30,9 @@ def maxAttempts = 3 // Maksimal 3 percobaan untuk mengecek elemen
 // Melakukan loop sampai elemen terceklis atau mencapai maksimal percobaan
 while (!(isChecked) && (maxAttempts > 0)) {
     // Memeriksa apakah elemen belum dicentang (unchecked)
-    if (!(Mobile.verifyElementChecked(findTestObject('Login Page/CheckBox - Remember Credentials'), 0, FailureHandling.OPTIONAL))) {
+    if (!(Mobile.verifyElementChecked(findTestObject('Login Page/Login Page/CheckBox - Remember Credentials'), 0, FailureHandling.OPTIONAL))) {
         // Jika belum dicentang, centang elemen
-        Mobile.checkElement(findTestObject('Login Page/CheckBox - Remember Credentials'), 0, FailureHandling.STOP_ON_FAILURE)
+        Mobile.checkElement(findTestObject('Login Page/Login Page/CheckBox - Remember Credentials'), 0, FailureHandling.STOP_ON_FAILURE)
 
         isChecked = true // Menandai bahwa elemen telah dicentang
     }
@@ -40,7 +40,7 @@ while (!(isChecked) && (maxAttempts > 0)) {
     maxAttempts-- // Mengurangi jumlah maksimal percobaan
 }
 
-Mobile.tap(findTestObject('Login Page/btn - LOGIN'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Login Page/Login Page/btn - LOGIN'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard with no acc/txt- Dashboard'), 0)
 

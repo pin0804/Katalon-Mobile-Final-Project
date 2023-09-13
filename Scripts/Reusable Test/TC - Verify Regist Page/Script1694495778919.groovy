@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.verifyElementVisible(findTestObject('Register Page/txt - Create Profile'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/btn - help'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - help'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/btn - menu kebab'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - menu kebab'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Register Page/inpt - First Name'), 0)
 
