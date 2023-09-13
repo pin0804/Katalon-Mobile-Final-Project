@@ -46,5 +46,7 @@ Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard with no acc/tx
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/txt- Dashboard'), 0)
 
+Mobile.pressBack()
+
 Mobile.closeApplication()
 
