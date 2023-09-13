@@ -62,4 +62,24 @@
          <variableId>3591f4d9-36d2-4acf-ab48-10f3d7a2cef1</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>954e2aef-1a5f-40b6-b78d-52851e0a7472</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC Dashboard/TC - Dashboard add account</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d90c2bc-2256-4911-a729-7ea2d3d70ad9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>85e585b4-2d92-4a92-bbce-5693573865c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC Dashboard/TC - Add Deposit Successfull</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

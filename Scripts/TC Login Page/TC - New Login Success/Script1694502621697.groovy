@@ -46,7 +46,11 @@ Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt- Dashboard
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.closeApplication()
+
+Mobile.pressBack()
 

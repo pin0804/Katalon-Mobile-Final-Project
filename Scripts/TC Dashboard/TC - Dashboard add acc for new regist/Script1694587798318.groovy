@@ -37,6 +37,9 @@ Mobile.setText(findTestObject('Login Page/Add an Account/inpt - Initial Balance 
 
 Mobile.tap(findTestObject('Login Page/Add an Account/btn - ADD'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.pressBack()
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.pressBack()
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -61,3 +64,7 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Account Page'), [:], 
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.pressBack()
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.pressBack()

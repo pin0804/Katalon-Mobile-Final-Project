@@ -45,11 +45,10 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify element add an accoun
 
 Mobile.setText(findTestObject('Login Page/Add an Account/inpt - Account Name'), GlobalVariable.account2, 0)
 
-Mobile.setText(findTestObject('Login Page/Add an Account/inpt - Initial Balance (Optional)'), balance, 0)
-
 Mobile.tap(findTestObject('Login Page/Add an Account/btn - ADD'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
@@ -78,7 +77,6 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Account Page'), [:], 
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
@@ -86,5 +84,4 @@ Mobile.pressBack()
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
-
 

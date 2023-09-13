@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usrtest'</initValue>
+      <initValue>'usrtest5'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

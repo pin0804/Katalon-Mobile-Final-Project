@@ -49,7 +49,11 @@ if ((((!(firstname.isEmpty()) && !(lastname.isEmpty())) && !(country.isEmpty()))
 
 Mobile.tap(findTestObject('Register Page/btn - Create Profile'), 0, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.closeApplication()
+
+Mobile.pressBack()
 
