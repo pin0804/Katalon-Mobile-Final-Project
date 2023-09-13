@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/btn - menu burger'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Account Page/txt - Accounts'), 0)
 

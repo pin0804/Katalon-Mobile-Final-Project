@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Login Page/Dashboard with no acc/btn - menu burger'), 0)
+Mobile.tap(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Login Page/Menu Burger/btn - Logout'), 0)
 

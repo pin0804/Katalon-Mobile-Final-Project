@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/txt- Dashboard'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/btn - menu burger'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - help'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - menu kebab'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/img - logo'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/img - logo'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/txt - Welcome to the Bank App Demo'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/txt - Welcome to the Bank App Demo'), 0)
 

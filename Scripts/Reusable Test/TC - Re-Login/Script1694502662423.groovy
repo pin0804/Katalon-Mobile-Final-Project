@@ -37,7 +37,7 @@ Mobile.verifyElementVisible(findTestObject('Login Page/Login Page/btn - CREATE A
 
 Mobile.tap(findTestObject('Login Page/Login Page/btn - LOGIN'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard with no acc/txt- Dashboard'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard with no acc/txt- Dashboard'), 0)
+Mobile.verifyElementVisible(findTestObject('Login Page/Dashboard/txt- Dashboard'), 0)
 

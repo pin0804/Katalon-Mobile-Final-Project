@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), 
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Re-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard with no acc/txt - Welcome to the Bank App Demo'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt - Welcome to the Bank App Demo'), 0)
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Dashboard for new acc'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/Dashboard with no acc/btn - ADD ACCOUNT'), 0)
+Mobile.tap(findTestObject('Login Page/Dashboard/btn - ADD ACCOUNT'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Login Page/Add an Account/txt - Add an Account'), 0)
 
@@ -43,11 +43,11 @@ WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), 
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Re-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard with no acc/txt - Welcome to the Bank App Demo'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt - Welcome to the Bank App Demo'), 0)
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/Dashboard with no acc/btn - menu burger'), 0)
+Mobile.tap(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
 
@@ -58,4 +58,6 @@ Mobile.tap(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
 Mobile.waitForElementPresent(findTestObject('Login Page/Account Page/txt - Accounts'), 0)
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Account Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Reusable Test/TC - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

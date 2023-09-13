@@ -39,4 +39,9 @@
       <initValue>''</initValue>
       <name>initBalance</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'myAccount2'</initValue>
+      <name>account2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
