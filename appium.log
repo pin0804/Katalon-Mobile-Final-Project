@@ -40,7 +40,8 @@
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
 [35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' an[35m[Appium][39m Received SIGTERM - shutting down
+e/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
@@ -130,7 +131,9 @@
 [35m[HTTP][39m [90m{}[39m
 [35m[W3C (dab88cd4)][39m Driver proxy active, passing request on via HTTP proxy
 [35m[WD Proxy][39m Replacing sessionId 46928c1d-61dc-4e53-879d-545dc26b159d with dab88cd4-94bd-489e-8782-b002f9e94aa2
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/dab88cd4-94bd-489e-8782-b002f9e94aa2/element/00000000-0000-003f-7fff-ffff0000005a/location [39m[32m200[39m [90m10 ms - 78[39m
+[35m[HTTP][39m [[35m[Appium][39m Received SIGTERM - shutting down
+002f9e94aa2/element/00000000-0000-003f-7fff-fff[35m[Appium][39m Received SIGTERM - shutting down
+8[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dab88cd4-94bd-489e-8782-b002f9e94aa2/element/00000000-0000-003f-7fff-ffff0000005a/size[39m
 [35m[HTTP][39m [90m{}[39m
@@ -302,3 +305,8 @@
 [35m[WD Proxy][39m Replacing sessionId 46928c1d-61dc-4e53-879d-545dc26b159d with dab88cd4-94bd-489e-8782-b002f9e94aa2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/dab88cd4-94bd-489e-8782-b002f9e94aa2/element/00000000-0000-003f-7fff-ffff00000058/size [39m[32m200[39m [90m11 ms - 87[39m
 [35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'dab88cd4-94bd-489e-8782-b002f9e94aa2' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[Appium][39m Received SIGTERM - shutting down

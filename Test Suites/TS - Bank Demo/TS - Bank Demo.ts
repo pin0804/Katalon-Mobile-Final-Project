@@ -53,7 +53,7 @@
       <guid>f50a3a67-c415-4a3b-9458-994279297e21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC Dashboard/TC - Dashboard add acc for new acc</testCaseId>
+      <testCaseId>Test Cases/TC Dashboard/TC - Dashboard add acc for new regist</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
