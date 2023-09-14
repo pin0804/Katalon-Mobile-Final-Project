@@ -17,9 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-def randomDefinedNumber = CustomKeywords.'kw.utility.randomNumber.RandomNumberCustom'(6)
-
-println('value random custom defined dari keyword: ' + randomDefinedNumber)
-def username = username + randomDefinedNumber
-println('new username: '+ username)
+CucumberKW.runFeatureFile('Include/features/MBP-4 Agfina - Test Case Import Jira - Help Button Feature at Dashboard.feature')

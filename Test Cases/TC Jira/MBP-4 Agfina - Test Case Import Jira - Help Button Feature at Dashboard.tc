@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Agfina - Test Case Import Jira - &quot;Help&quot; Button Feature at Dashboard 
+Description: @Dashboard
+
+Feature: “Help (?)” Button Feature
+
+As a user, I want to be able to click and access “Help (?)” button at Dashboard Page.
+
+
+
+@Valid
+
+Scenario: Click on the “Help (?)”  button
+
+Given I am Logged In successfully
+Then I should be directed to the Dashboard Page 
+When I click on the “Help (?)”  button
+Then the documentation should be appear</description>
+   <name>MBP-4 Agfina - Test Case Import Jira - Help Button Feature at Dashboard</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10034&quot;:&quot;@Dashboard\n\nFeature: “Help ” Button Feature\n\nAs a user, I want to be able to click and access “Help ” button at Dashboard Page.\n\n\n\n@Valid\n\nScenario: Click on the “Help ”  button\n\nGiven I am Logged In successfully\nThen I should be directed to the Dashboard Page \nWhen I click on the “Help ”  button\nThen the documentation should be appear&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0002v:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ksat08git.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;MBP&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Mobile Based Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Agfina - Test Case Import Jira - \&quot;Help\&quot; Button Feature at Dashboard &quot;,&quot;description&quot;:&quot;@Dashboard\n\nFeature: “Help (?)” Button Feature\n\nAs a user, I want to be able to click and access “Help (?)” button at Dashboard Page.\n\n\n\n@Valid\n\nScenario: Click on the “Help (?)”  button\n\nGiven I am Logged In successfully\nThen I should be directed to the Dashboard Page \nWhen I click on the “Help (?)”  button\nThen the documentation should be appear&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;finacontech@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Agfina Aliarahma&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3A162d9d4f-8368-4534-85ae-3e0d263b99ad&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;finacontech@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Agfina Aliarahma&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3A162d9d4f-8368-4534-85ae-3e0d263b99ad&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/MBP-4/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/10015&quot;,&quot;key&quot;:&quot;MBP-4&quot;,&quot;id&quot;:10015}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>6f3b0fcc-ef55-4f41-a0b8-cfa904437753</testCaseGuid>
+</TestCaseEntity>

@@ -120,3 +120,13 @@
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD' or . = 'ADD') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_add_payee']"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/a713374d-223f-4ddc-bcd0-e004d36e92db/elements [39m[32m200[39m [90m102 ms - 139[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/a713374d-223f-4ddc-bcd0-e004d36e92db[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session a713374d-223f-4ddc-bcd0-e004d36e92db from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.android.settings
+[35m[UiAutomator2][39m Unable to force stop app: Could not find a connected Android device in 20018ms.
+[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:8243
+[35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20032ms.
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/a713374d-223f-4ddc-bcd0-e004d36e92db [39m[32m200[39m [90m42238 ms - 14[39m
+[35m[HTTP][39m [90m[39m
