@@ -19,31 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Launch app from existing'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('Login Page/Login Page/btn - LOGIN'), 0)
+
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Re-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/txt - Welcome to the Bank App Demo'), 0)
-
-WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
 Mobile.tap(findTestObject('Login Page/Dashboard/btn - menu burger'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Menu Burger/btn - Make a Deposit'), 0)
 
 WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Menu Burger'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/Menu Burger/btn - Accounts'), 0)
+Mobile.tap(findTestObject('Login Page/Menu Burger/btn - Make a Deposit'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login Page/Account Page/txt - Accounts'), 0)
+Mobile.waitForElementPresent(findTestObject('Login Page/Add Deposit Page/error state/txt - Deposit Error'), 0)
 
-WebUI.callTestCase(findTestCase('Reusable Test/TC - Verify Account Page'), [:], FailureHandling.STOP_ON_FAILURE)
+def errorstate = Mobile.getText(findTestObject('Login Page/Add Deposit Page/error state/txt - Deposit Error'), 0)
 
-WebUI.callTestCase(findTestCase('Reusable Test/TC - Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+println('state :' + errorstate)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Login Page/Add Deposit Page/error state/txt - message invalid'), 0)
 
-Mobile.pressBack()
+def errormessage = Mobile.getText(findTestObject('Login Page/Add Deposit Page/error state/txt - message invalid'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+println('error message: ' + errormessage)
 
-Mobile.pressBack()
+Mobile.verifyElementVisible(findTestObject('Login Page/Add Deposit Page/error state/btn - CANCEL'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Login Page/Add Deposit Page/error state/btn - ADD ACCOUNT'), 0)
+
+Mobile.tap(findTestObject('Login Page/Add Deposit Page/error state/btn - CANCEL'), 0)
+
+Mobile.closeApplication()
 
