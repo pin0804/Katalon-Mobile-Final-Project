@@ -22,9 +22,10 @@ The tasks being automated in this project include:
 There were some challenges encountered during the project:
 
 1. On my emulator, the application consistently terminates when attempting CRUD operations. For example, when trying to add an account, clicking the "Add" button causes the application to terminate. To address this, I added a delay step and pressed the "Back" button twice.
+   
    <img width="343" alt="Screenshot 2023-09-15 at 18 33 29" src="https://github.com/pin0804/Katalon-Mobile-Final-Project/assets/87196069/732bc345-fc02-4bda-a230-c5470d489bbf">
 
-2. Occasionally, after clicking "Add Data," the data is not added to the application. This issue has been sporadic and difficult to reproduce consistently.
+3. Occasionally, after clicking "Add Data," the data is not added to the application. This issue has been sporadic and difficult to reproduce consistently.
 
 **These problems have resulted in test flakiness.**
 
